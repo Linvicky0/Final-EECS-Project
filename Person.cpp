@@ -5,7 +5,7 @@
  * Project UID 28eb18c2c1ce490aada441e65559efdd
  *
  * Vicky, Kelly, Reese, Khadra
- * <#Uniqnames#>
+ * lvicky, kpina, izareese, khadra
  *
  * Final Project - Elevators
  */
@@ -18,7 +18,7 @@
 using namespace std;
 
 Person::Person(string inputString) : Person() {
-    //TODO: Implement non-default constructor
+    
     turn = 0;
     currentFloor = 0;
     targetFloor = 0;
