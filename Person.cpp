@@ -4,7 +4,7 @@
  * Person.cpp
  * Project UID 28eb18c2c1ce490aada441e65559efdd
  *
- * <#Names#>
+ * Vicky, Kelly, Reese, Khadra
  * <#Uniqnames#>
  *
  * Final Project - Elevators
