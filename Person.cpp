@@ -5,7 +5,7 @@
  * Project UID 28eb18c2c1ce490aada441e65559efdd
  *
  * Vicky, Kelly, Reese, Khadra
- * lvicky, kpina, izareese, khadra
+ * <#Uniqnames#>
  *
  * Final Project - Elevators
  */
@@ -18,16 +18,16 @@
 using namespace std;
 
 Person::Person(string inputString) : Person() {
-    
-    turn = 0;
-    currentFloor = 0;
-    targetFloor = 0;
-    angerLevel = 0;
+    //TODO: Implement non-default constructor
+    inputString
 }
 
 bool Person::tick(int currentTime) {
     //TODO: Implement tick
-
+      angerLevel += currentTime/TICKS_PER_ANGER_INCREASE;
+    if (angerLevel >= MAX_ANGER) {
+        return true;
+    }
     //Returning false to prevent compilation error
     return false;
 }
