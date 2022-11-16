@@ -19,7 +19,7 @@ using namespace std;
 
 Person::Person(string inputString) : Person() {
     //TODO: Implement non-default constructor
-    inputString
+    inputString;
 }
 
 bool Person::tick(int currentTime) {
